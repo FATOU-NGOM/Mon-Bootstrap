@@ -1,0 +1,308 @@
+/* Style de la barre de navigation */
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700; /* Couleur au survol */
+  }
+  
+  /* Ajustements pour les petits écrans */
+  @media (max-width: 576px) {
+    .navbar-brand img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Couleur de fond personnalisée */
+.bg-light-blue {
+    background-color: #4a90e2; /* Exemple de bleu clair */
+}
+
+/* Styles pour l'image */
+img.img-fluid {
+    border-radius: 50%; /* Rend l'image circulaire */
+    max-width: 100%;
+    height: auto; /* Maintient les proportions */
+}
+
+/* Polices personnalisées */
+.faster-one {
+    font-family: 'Faster One', cursive; /* Ajoutez la font avec @import dans votre CSS si nécessaire */
+}
+
+/* Icônes sociales */
+.social-icons a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffcc00; /* Couleur survol */
+}
+h1,
+p {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid.bg-light-blue {
+    margin-top: 0; /* Supprime l'espace entre la navbar et la section */
+    padding-top: 70px; /* Optionnel : ajustez si nécessaire */
+}
+
+h1,
+p {
+    margin: 0; /* Supprime les marges par défaut des titres et paragraphes */
+}
+
+/* Supprimer les marges par défaut du body */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ajuster la section bannière */
+.container-fluid.bg-light-blue {
+  margin-top: 0; /* Supprime l'espace */
+  padding-top: 70px; /* Ajustez si nécessaire */
+}
+
+
+/* Dégradé pour l'image */
+.gradient-border {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #56A4CA, #A0D7E9);
+  z-index: -1;
+}
+
+/* Ajustement des sections */
+section h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.card img {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+
+
+
+.bg-gradient {
+  border-radius: 20px;
+}
+
+.rotate-10 {
+  transform: rotate(10deg);
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #f8f9fa; /* Couleur de fond pour une meilleure lisibilité */
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .carousel-img {
+      height: 200px;
+  }
+}
+
+.container-fluid.bg-white {
+  background-color: white;
+}
+
+.text-dark {
+  color: black;
+}
+
+
+
+
+
+
+
+
+.carousel-img {
+  height: 400px; /* Hauteur par défaut */
+  object-fit: cover; /* Conserve les proportions en remplissant le conteneur */
+  border-radius: 10px; /* Bords arrondis */
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+      height: 250px; /* Réduit la hauteur sur les écrans plus petits */
+  }
+}
+
+.skill-title {
+  background-color: #56A4CA;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.skill-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom au survol */
+}
+
+
+/* Styles pour le titre avec boutons */
+.text-center {
+  position: relative;
+}
+
+.text-center h3 {
+  font-size: 2rem;
+  color: black;
+  margin: 0;
+}
+
+.btn-light, .btn {
+  border: none;
+  box-shadow: none;
+}
+
+/* Styles pour les titres des compétences */
+.skill-title {
+  background-color: #56A4CA;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/* Uniformisation des images */
+.skill-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* Cartes avec alignement uniforme */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Responsivité */
+@media (max-width: 576px) {
+  .skill-image {
+      height: 150px;
+  }
+
+  .text-center h3 {
+      font-size: 1.5rem;
+  }
+}
+
+
+.skills-section {
+  background-color: #f9f9f9; /* Couleur de fond douce */
+  padding: 40px 0;
+}
+
+.skill-card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.skill-image {
+  height: 200px; /* Hauteur fixe pour uniformiser les images */
+  width: 100%; /* Largeur maximale pour remplir la carte */
+  object-fit: contain; /* Conserver les proportions de l'image */
+  display: block; /* Assurer que les images s'alignent correctement */
+  margin: 0 auto; /* Centrer l'image horizontalement */
+  padding: 10px; /* Espacement interne pour éviter que l'image touche les bords */
+}
+
+
+
+
+
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .testimonial4_slide img {
+      width: 100px;
+      height: 100px;
+  }
+  h3 {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial4_slide img {
+      width: 80px;
+      height: 80px;
+  }
+  .card-body h3 {
+      font-size: 1.25rem;
+  }
+  .btn {
+      font-size: 0.9rem;
+  }
+}
